@@ -1,0 +1,19 @@
+# Never commit generated trust material or local artefacts.
+*.pem
+*.crt
+*.cer
+*.der
+*.pfx
+*.p12
+
+# Never commit credentials.
+.env
+.env.*
+*.token
+*.key
+
+# Editor / OS noise.
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
